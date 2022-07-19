@@ -10,10 +10,10 @@ export default function RepoCard({ repo }: { repo: IRepo }) {
         <p className="text-sm">
           {" "}
           Forks: <span className="font-bold">
-            {" "}
             {repo.forks}{" "}
           </span> Watchers: <span className="font-bold"> {repo.watchers} </span>{" "}
         </p>
+        about
       </a>
     </div>
   );
